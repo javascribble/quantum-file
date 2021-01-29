@@ -1,13 +1,9 @@
 import html from '../templates/file.js';
 
-const { Component, template, define } = quantum;
-
-export class File extends Component {
+export class File extends Quantum {
     constructor() {
         super();
     }
-
-    static template = template(html);
 }
 
-define('quantum-file', File);
+File.define('quantum-file', html);

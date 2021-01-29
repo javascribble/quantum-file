@@ -1,3 +1,3 @@
-import * as file from './elements/file.js';
+import { File } from './elements/file.js';
 
-Object.assign(quantum, file);
+Quantum.File = File
