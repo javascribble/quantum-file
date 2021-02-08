@@ -1,3 +1,1 @@
-import { File } from './elements/file.js';
-
-Quantum.File = File
+import './elements/file.js';
